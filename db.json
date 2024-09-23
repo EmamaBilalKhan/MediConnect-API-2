@@ -1,0 +1,121 @@
+{
+    "Patients": [
+      {
+        "email": "cillian.murphy@example.com",
+        "name": "Cillian Murphy",
+        "password": "emms123",
+        "address": "123 Main St, Cityville, ST 12345",
+        "weight": 75,
+        "bloodpressure": "120/80",
+        "contact": "+1 555-1111",
+        "bloodglucose": 90,
+        "image": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/default/20220614/627571f5587bde35b16c99a10140841e.jpeg&source=s3-peliplat&mode=FILL&width=750&height=880&limit=false&c=1.jpg",
+        "patientid": "P001",
+        "gender": "Male",
+        "Age": 48
+      },
+      {
+        "email": "Chris.lovely@example.com",
+        "name": "Chris Evans",
+        "password": "Emama123",
+        "address": "456 Oak St, Townsville, ST 67890",
+        "weight": 65,
+        "bloodpressure": "115/75",
+        "contact": "+1 555-2222",
+        "bloodglucose": 85,
+        "image": "https://media.themoviedb.org/t/p/w500/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+        "patientid": "P002",
+        "gender": "Male",
+        "Age": 43
+      },
+      {
+        "email": "burak.deniz@example.com",
+        "name": "Burak Deniz",
+        "password": "alice123",
+        "address": "789 Pine St, Villageville, ST 98765",
+        "weight": 60,
+        "bloodpressure": "110/70",
+        "contact": "+1 555-3333",
+        "bloodglucose": 95,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXjX23-WMSwhNFKBZvBdLAgPlq7XdWCX6JkA&s",
+        "patientid": "P003",
+        "gender": "Male",
+        "Age": 33
+      },
+      {
+        "email": "michaela.brown@example.com",
+        "name": "Michaela Brown",
+        "password": "michael123",
+        "address": "101 Maple St, Hamletville, ST 13579",
+        "weight": 80,
+        "bloodpressure": "125/85",
+        "contact": "+1 555-4444",
+        "bloodglucose": 100,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLaODwzOaTcSW4nL2oymLjUfUoAI5dzCh7yA&s",
+        "patientid": "P004",
+        "gender": "Female",
+        "Age": 29
+      },
+      {
+        "email": "emma.white@example.com",
+        "name": "Emma White",
+        "password": "emma123",
+        "address": "202 Birch St, Metropolis, ST 24680",
+        "weight": 68,
+        "bloodpressure": "118/78",
+        "contact": "+1 555-5555",
+        "bloodglucose": 92,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Wzc1XL7Fl7j4fg7xjIUC_UH2dGBdxE7N_w&s",
+        "patientid": "P005",
+        "gender": "Female",
+        "Age": 60
+  
+      },
+      {
+        "email": "james.green@example.com",
+        "name": "James Green",
+        "password": "james123",
+        "address": "303 Cedar St, Capital City, ST 11223",
+        "weight": 85,
+        "bloodpressure": "130/90",
+        "contact": "+1 555-6666",
+        "bloodglucose": 105,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8R-6aAHpmGkGut1Muum0qs62jZgqy_7PXw&s",
+        "patientid": "P006",
+        "gender": "Male",
+        "Age": 65
+  
+      },
+      {
+        "email": "sophia.adams@example.com",
+        "name": "Sophia Adams",
+        "password": "sophia123",
+        "address": "404 Willow St, Urbantown, ST 33445",
+        "weight": 80,
+        "bloodpressure": "112/72",
+        "contact": "+1 555-7777",
+        "bloodglucose": 88,
+        "image": "https://img.freepik.com/free-photo/picture-glamourous-plus-size-young-female-with-black-loose-hair-large-curvy-body-smiling-happily-expressing-joy-positive-emotions-posing-isolated-dressed-white-formal-xxl-shirt_344912-2567.jpg",
+        "patientid": "P007",
+        "gender": "Female",
+        "Age": 29
+  
+      },
+      {
+        "email": "liam.thompson@example.com",
+        "name": "Liam Thompson",
+        "password": "liam123",
+        "address": "505 Elm St, Riverside, ST 55667",
+        "weight": 90,
+        "bloodpressure": "135/95",
+        "contact": "+1 555-8888",
+        "bloodglucose": 110,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJf5iwYWvLrYfSeAhzEDvq2I1-7o_qL7dhG4jILCY11k1dIO_m6s7HvrEmlj4dR2w5d7Y&usqp=CAU",
+        "patientid": "P008",
+        "gender": "Male",
+        "Age": 75
+  
+      }
+    ]
+  }
+  
