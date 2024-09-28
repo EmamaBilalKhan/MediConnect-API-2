@@ -15,7 +15,7 @@
         "Age": 48,
         "Prescriptions":[
           {
-            "Doctor":"Dr. Junaid J",
+            "Doctor":"Dr. Emama",
             "Date":"2023-07-21",
             "Medication": [
                 {
@@ -258,40 +258,6 @@
         "Prescriptions":[
           {
             "Doctor":"Dr. Junaid J",
-            "Date":"2023-07-21",
-            "Medication": [
-                {
-                  "Medicine": "Azoxan",
-                  "Strength": "500mg",
-                  "Dosage": "2 tablets",
-                  "Frequency": "12 hrs",
-                  "Duration": "10 Days"
-                },
-                {
-                  "Medicine": "Conta",
-                  "Strength": "200mg",
-                  "Dosage": "1 tablet",
-                  "Frequency": "6 hrs",
-                  "Duration": "5 Days"
-                },
-                {
-                  "Medicine": "Floran",
-                  "Strength": "500mg",
-                  "Dosage": "1 tablet",
-                  "Frequency": "24 hrs",
-                  "Duration": "8 Days"
-                },
-                {
-                  "Medicine": "Roxan",
-                  "Strength": "200mg",
-                  "Dosage": "2 tablets",
-                  "Frequency": "12 hrs",
-                  "Duration": "10 Days"
-                }
-              ]
-          },
-          {
-            "Doctor":"Dr. AR",
             "Date":"2023-07-21",
             "Medication": [
                 {
