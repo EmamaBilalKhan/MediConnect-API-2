@@ -206,7 +206,34 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8R-6aAHpmGkGut1Muum0qs62jZgqy_7PXw&s",
         "patientid": "P006",
         "gender": "Male",
-        "Age": 65
+        "Age": 65,
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Feeling anxious and overwhelmed",
+              "history_of_present_illness": "The patient reports increased anxiety over the past 2 weeks due to work-related stress. Trouble sleeping and constant worry. No suicidal ideation.",
+              "past_psychiatric_history": "History of generalized anxiety disorder",
+              "medications": "Sertraline 50mg daily",
+              "allergies": "None",
+              "social_history": "Works as a software engineer, lives alone",
+              "family_history": "Mother has a history of depression"
+            },
+            "objective": {
+              "mood": "Anxious",
+              "affect": "Constricted",
+              "thought_process": "Linear and goal-directed",
+              "speech": "Normal rate and tone",
+              "judgment": "Intact"
+            },
+            "assessment": "Exacerbation of generalized anxiety disorder",
+            "plan": {
+              "medications": "Increase Sertraline to 75mg daily",
+              "therapy": "Continue cognitive-behavioral therapy",
+              "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
+              "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
+            }
+          }
+        ]        
       },
       {
         "email": "liam.thompson@example.com",
