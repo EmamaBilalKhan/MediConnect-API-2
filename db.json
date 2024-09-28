@@ -12,7 +12,104 @@
         "image": "https://img.peliplat.com/api/resize/v1?imagePath=peliplat/default/20220614/627571f5587bde35b16c99a10140841e.jpeg&source=s3-peliplat&mode=FILL&width=750&height=880&limit=false&c=1.jpg",
         "patientid": "P001",
         "gender": "Male",
-        "Age": 48
+        "Age": 48,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Feeling anxious and overwhelmed",
+              "history_of_present_illness": "The patient reports increased anxiety over the past 2 weeks due to work-related stress. Trouble sleeping and constant worry. No suicidal ideation.",
+              "past_psychiatric_history": "History of generalized anxiety disorder",
+              "medications": "Sertraline 50mg daily",
+              "allergies": "None",
+              "social_history": "Works as a software engineer, lives alone",
+              "family_history": "Mother has a history of depression"
+            },
+            "objective": {
+              "mood": "Anxious",
+              "affect": "Constricted",
+              "thought_process": "Linear and goal-directed",
+              "speech": "Normal rate and tone",
+              "judgment": "Intact"
+            },
+            "assessment": "Exacerbation of generalized anxiety disorder",
+            "plan": {
+              "medications": "Increase Sertraline to 75mg daily",
+              "therapy": "Continue cognitive-behavioral therapy",
+              "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
+              "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
+            }
+          }
+        ]
       },
       {
         "email": "Chris.lovely@example.com",
@@ -26,7 +123,110 @@
         "image": "https://media.themoviedb.org/t/p/w500/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
         "patientid": "P002",
         "gender": "Male",
-        "Age": 43
+        "Age": 43,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Cough and runny nose for 4 days",
+              "history_of_present_illness": "The child has had a productive cough and runny nose for 4 days, along with intermittent fever. No vomiting or diarrhea. Parents report decreased activity levels.",
+              "past_medical_history": "No known chronic illnesses",
+              "medications": "None",
+              "allergies": "None",
+              "social_history": "Lives with both parents, no pets",
+              "family_history": "Mother has seasonal allergies"
+            },
+            "objective": {
+              "vital_signs": {
+                "temperature": "100.4°F",
+                "heart_rate": "90 bpm",
+                "respiratory_rate": "22 breaths/min"
+              },
+              "physical_exam": {
+                "general": "Tired, but responsive",
+                "lungs": "Coarse breath sounds with scattered wheezes",
+                "ears": "Bilateral otitis media",
+                "throat": "Mild erythema, no tonsillar exudate"
+              }
+            },
+            "assessment": "Viral upper respiratory infection",
+            "plan": {
+              "medications": "Acetaminophen for fever control, saline nasal spray",
+              "follow_up": "Follow up in 5-7 days if no improvement",
+              "referrals": "None",
+              "instructions": "Plenty of fluids, monitor temperature, and activity"
+            }
+          }
+        ]
       },
       {
         "email": "burak.deniz@example.com",
@@ -54,7 +254,138 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLaODwzOaTcSW4nL2oymLjUfUoAI5dzCh7yA&s",
         "patientid": "P004",
         "gender": "Female",
-        "Age": 29
+        "Age": 29,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Feeling anxious and overwhelmed",
+              "history_of_present_illness": "The patient reports increased anxiety over the past 2 weeks due to work-related stress. Trouble sleeping and constant worry. No suicidal ideation.",
+              "past_psychiatric_history": "History of generalized anxiety disorder",
+              "medications": "Sertraline 50mg daily",
+              "allergies": "None",
+              "social_history": "Works as a software engineer, lives alone",
+              "family_history": "Mother has a history of depression"
+            },
+            "objective": {
+              "mood": "Anxious",
+              "affect": "Constricted",
+              "thought_process": "Linear and goal-directed",
+              "speech": "Normal rate and tone",
+              "judgment": "Intact"
+            },
+            "assessment": "Exacerbation of generalized anxiety disorder",
+            "plan": {
+              "medications": "Increase Sertraline to 75mg daily",
+              "therapy": "Continue cognitive-behavioral therapy",
+              "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
+              "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
+            }
+          }
+        ]
       },
       {
         "email": "emma.white@example.com",
@@ -68,8 +399,172 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Wzc1XL7Fl7j4fg7xjIUC_UH2dGBdxE7N_w&s",
         "patientid": "P005",
         "gender": "Female",
-        "Age": 60
-  
+        "Age": 60,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Feeling anxious and overwhelmed",
+              "history_of_present_illness": "The patient reports increased anxiety over the past 2 weeks due to work-related stress. Trouble sleeping and constant worry. No suicidal ideation.",
+              "past_psychiatric_history": "History of generalized anxiety disorder",
+              "medications": "Sertraline 50mg daily",
+              "allergies": "None",
+              "social_history": "Works as a software engineer, lives alone",
+              "family_history": "Mother has a history of depression"
+            },
+            "objective": {
+              "mood": "Anxious",
+              "affect": "Constricted",
+              "thought_process": "Linear and goal-directed",
+              "speech": "Normal rate and tone",
+              "judgment": "Intact"
+            },
+            "assessment": "Exacerbation of generalized anxiety disorder",
+            "plan": {
+              "medications": "Increase Sertraline to 75mg daily",
+              "therapy": "Continue cognitive-behavioral therapy",
+              "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
+              "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
+            }
+          }
+        ]
       },
       {
         "email": "james.green@example.com",
@@ -83,7 +578,100 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8R-6aAHpmGkGut1Muum0qs62jZgqy_7PXw&s",
         "patientid": "P006",
         "gender": "Male",
-        "Age": 65
+        "Age": 65,
+        "Prescriptions":[{
+          "Doctor":"Dr. AR",
+          "Date":"2024-01-11",
+          "Medication": [
+              {
+                "Medicine": "Azoxan",
+                "Strength": "500mg",
+                "Dosage": "2 tablets",
+                "Frequency": "12 hrs",
+                "Duration": "10 Days"
+              },
+              {
+                "Medicine": "Conta",
+                "Strength": "200mg",
+                "Dosage": "1 tablet",
+                "Frequency": "6 hrs",
+                "Duration": "5 Days"
+              },
+              {
+                "Medicine": "Floran",
+                "Strength": "500mg",
+                "Dosage": "1 tablet",
+                "Frequency": "24 hrs",
+                "Duration": "8 Days"
+              },
+              {
+                "Medicine": "Roxan",
+                "Strength": "200mg",
+                "Dosage": "2 tablets",
+                "Frequency": "12 hrs",
+                "Duration": "10 Days"
+              }
+            ]
+        },
+        {
+          "Doctor":"Dr. Laiba",
+          "Date":"2023-09-04",
+          "Medication": [
+              {
+                "Medicine": "Azoxan",
+                "Strength": "500mg",
+                "Dosage": "2 tablets",
+                "Frequency": "12 hrs",
+                "Duration": "10 Days"
+              },
+              {
+                "Medicine": "Conta",
+                "Strength": "200mg",
+                "Dosage": "1 tablet",
+                "Frequency": "6 hrs",
+                "Duration": "5 Days"
+              },
+              {
+                "Medicine": "Floran",
+                "Strength": "500mg",
+                "Dosage": "1 tablet",
+                "Frequency": "24 hrs",
+                "Duration": "8 Days"
+              },
+              {
+                "Medicine": "Roxan",
+                "Strength": "200mg",
+                "Dosage": "2 tablets",
+                "Frequency": "12 hrs",
+                "Duration": "10 Days"
+              }
+            ]
+        }],
+        "SOAP_Notes":[{
+          "subjective": {
+            "chief_complaint": "Feeling anxious and overwhelmed",
+            "history_of_present_illness": "The patient reports increased anxiety over the past 2 weeks due to work-related stress. Trouble sleeping and constant worry. No suicidal ideation.",
+            "past_psychiatric_history": "History of generalized anxiety disorder",
+            "medications": "Sertraline 50mg daily",
+            "allergies": "None",
+            "social_history": "Works as a software engineer, lives alone",
+            "family_history": "Mother has a history of depression"
+          },
+          "objective": {
+            "mood": "Anxious",
+            "affect": "Constricted",
+            "thought_process": "Linear and goal-directed",
+            "speech": "Normal rate and tone",
+            "judgment": "Intact"
+          },
+          "assessment": "Exacerbation of generalized anxiety disorder",
+          "plan": {
+            "medications": "Increase Sertraline to 75mg daily",
+            "therapy": "Continue cognitive-behavioral therapy",
+            "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
+            "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
+          }
+        }]
   
       },
       {
@@ -98,8 +686,110 @@
         "image": "https://img.freepik.com/free-photo/picture-glamourous-plus-size-young-female-with-black-loose-hair-large-curvy-body-smiling-happily-expressing-joy-positive-emotions-posing-isolated-dressed-white-formal-xxl-shirt_344912-2567.jpg",
         "patientid": "P007",
         "gender": "Female",
-        "Age": 29
-  
+        "Age": 29,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Cough and runny nose for 4 days",
+              "history_of_present_illness": "The child has had a productive cough and runny nose for 4 days, along with intermittent fever. No vomiting or diarrhea. Parents report decreased activity levels.",
+              "past_medical_history": "No known chronic illnesses",
+              "medications": "None",
+              "allergies": "None",
+              "social_history": "Lives with both parents, no pets",
+              "family_history": "Mother has seasonal allergies"
+            },
+            "objective": {
+              "vital_signs": {
+                "temperature": "100.4°F",
+                "heart_rate": "90 bpm",
+                "respiratory_rate": "22 breaths/min"
+              },
+              "physical_exam": {
+                "general": "Tired, but responsive",
+                "lungs": "Coarse breath sounds with scattered wheezes",
+                "ears": "Bilateral otitis media",
+                "throat": "Mild erythema, no tonsillar exudate"
+              }
+            },
+            "assessment": "Viral upper respiratory infection",
+            "plan": {
+              "medications": "Acetaminophen for fever control, saline nasal spray",
+              "follow_up": "Follow up in 5-7 days if no improvement",
+              "referrals": "None",
+              "instructions": "Plenty of fluids, monitor temperature, and activity"
+            }
+          }
+        ]
       },
       {
         "email": "liam.thompson@example.com",
@@ -114,6 +804,111 @@
         "patientid": "P008",
         "gender": "Male",
         "Age": 75
+        ,
+        "Prescriptions":[
+          {
+            "Doctor":"Dr. Junaid J",
+            "Date":"2023-07-21",
+            "Medication": [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          },
+          {
+            "Doctor":"Dr. AR",
+            "Date":"2023-07-21",
+            "Medication":  [
+                {
+                  "Medicine": "Azoxan",
+                  "Strength": "500mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                },
+                {
+                  "Medicine": "Conta",
+                  "Strength": "200mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "6 hrs",
+                  "Duration": "5 Days"
+                },
+                {
+                  "Medicine": "Floran",
+                  "Strength": "500mg",
+                  "Dosage": "1 tablet",
+                  "Frequency": "24 hrs",
+                  "Duration": "8 Days"
+                },
+                {
+                  "Medicine": "Roxan",
+                  "Strength": "200mg",
+                  "Dosage": "2 tablets",
+                  "Frequency": "12 hrs",
+                  "Duration": "10 Days"
+                }
+              ]
+          }
+        ],
+        "SOAP_Notes":[
+          {
+            "subjective": {
+              "chief_complaint": "Cough and runny nose for 4 days",
+              "history_of_present_illness": "The child has had a productive cough and runny nose for 4 days, along with intermittent fever. No vomiting or diarrhea. Parents report decreased activity levels.",
+              "past_medical_history": "No known chronic illnesses",
+              "medications": "None",
+              "allergies": "None",
+              "social_history": "Lives with both parents, no pets",
+              "family_history": "Mother has seasonal allergies"
+            },
+            "objective": {
+              "vital_signs": {
+                "temperature": "100.4°F",
+                "heart_rate": "90 bpm",
+                "respiratory_rate": "22 breaths/min"
+              },
+              "physical_exam": {
+                "general": "Tired, but responsive",
+                "lungs": "Coarse breath sounds with scattered wheezes",
+                "ears": "Bilateral otitis media",
+                "throat": "Mild erythema, no tonsillar exudate"
+              }
+            },
+            "assessment": "Viral upper respiratory infection",
+            "plan": {
+              "medications": "Acetaminophen for fever control, saline nasal spray",
+              "follow_up": "Follow up in 5-7 days if no improvement",
+              "referrals": "None",
+              "instructions": "Plenty of fluids, monitor temperature, and activity"
+            }
+          }
+        ]
+        
   
       }
     ]
