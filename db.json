@@ -107,7 +107,8 @@
               "therapy": "Continue cognitive-behavioral therapy",
               "follow_up": "Follow up in 2 weeks to reassess anxiety levels",
               "instructions": "Practice mindfulness exercises and maintain a consistent sleep schedule"
-            }
+            },
+            "LastUpdated":"2023-07-21"
           }
         ]
       },
@@ -190,7 +191,8 @@
               "follow_up": "Follow up in 5-7 days if no improvement",
               "referrals": "None",
               "instructions": "Plenty of fluids, monitor temperature, and activity"
-            }
+            },
+            "LastUpdated":"2023-08-21"
           }
         ],
         "Appointments":[{"appointmentId": "002",
